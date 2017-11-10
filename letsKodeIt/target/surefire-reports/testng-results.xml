@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="letsKodeIt" duration-ms="30094" started-at="2017-11-05T18:28:39Z" finished-at="2017-11-05T18:29:09Z">
+    <groups>
+    </groups>
+    <test name="letsKodeItfeatures" duration-ms="30094" started-at="2017-11-05T18:28:39Z" finished-at="2017-11-05T18:29:09Z">
+      <class name="testPageObject.TestText">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPageObject.TestText@36f6e879]" name="setUp" is-config="true" duration-ms="4519" started-at="2017-11-05T13:28:39Z" finished-at="2017-11-05T13:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saucelabs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[61.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://letskodeit.teachable.com/p/practice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickBy()[pri:0, instance:testPageObject.TestText@36f6e879]" name="clickBy" duration-ms="25466" started-at="2017-11-05T13:28:43Z" finished-at="2017-11-05T13:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPageObject.TestText@36f6e879]" name="tearDown" is-config="true" duration-ms="88" started-at="2017-11-05T13:29:09Z" finished-at="2017-11-05T13:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPageObject.TestText -->
+    </test> <!-- letsKodeItfeatures -->
+  </suite> <!-- letsKodeIt -->
+</testng-results>

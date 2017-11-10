@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="letsKodeIt" parallel="tests">
+
+    <test name="letsKodeItfeatures">
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="saucelabs"/>
+        <parameter name="platform" value="Mac"/>
+        <parameter name="platformVersion" value="Sierra"/>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="61.0"/>
+        <parameter name="url" value="https://www.google.com/"/>
+        <parameter name="url" value="http://www.letskodeit.com/"/>
+        <!--<parameter name="url" value="https://letskodeit.teachable.com/p/practice"/>-->
+        <classes>
+            <!--<class name="testPageObject.TestHome"/>-->
+            <!--<class name="testPageObject.DropdownAndDisableCase"/>-->
+            <class name="testPageObject.TestText"/>
+        </classes>
+    </test>
+</suite>
