@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [letsKodeIt]" parallel="tests">
+  <test name="letsKodeItfeatures(failed)" parallel="tests">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="platformVersion" value="Sierra"/>
+    <parameter name="browserVersion" value="61.0"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://www.letskodeit.com/"/>
+    <classes>
+      <class name="testPageObject.TestText">
+        <methods>
+          <include name="setUp"/>
+          <include name="startsExtentReports"/>
+          <include name="tearDown"/>
+          <include name="searchItems"/>
+        </methods>
+      </class> <!-- testPageObject.TestText -->
+    </classes>
+  </test> <!-- letsKodeItfeatures(failed) -->
+</suite> <!-- Failed suite [letsKodeIt] -->

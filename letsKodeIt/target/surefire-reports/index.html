@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-letsKodeIt">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-letsKodeIt" title="testPageObject.TestText" hash-for-method="clickBy">clickBy</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-letsKodeIt" title="testPageObject.TestText" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-letsKodeIt -->
@@ -125,9 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickBy">
-                  </a> <!-- clickBy -->
-                  <span class="method-name">clickBy</span>
+                  <a name="searchItems">
+                  </a> <!-- searchItems -->
+                  <span class="method-name">searchItems</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel letsKodeIt -->
         <div panel-name="test-xml-letsKodeIt" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/mozzamelhossain/IdeaProjects/pntSelenium/letsKodeIt/target/test-classes/letsKodeItTestRunner.xml</span>
+            <span class="header-content">/Users/syedraza/IdeaProjects/pntSeleniumAndDataReader/letsKodeIt/target/test-classes/letsKodeItTestRunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -149,10 +149,8 @@
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;saucelabs&quot;/&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;Mac&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://letskodeit.teachable.com/p/practice&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://www.letskodeit.com/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testPageObject.TestHome&quot;/&gt;
-      &lt;class name=&quot;testPageObject.DropdownAndDisableCase&quot;/&gt;
       &lt;class name=&quot;testPageObject.TestText&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- letsKodeItfeatures --&gt;
@@ -167,7 +165,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">letsKodeItfeatures (3 classes)</span>
+                <span class="test-name">letsKodeItfeatures (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,14 +193,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickBy')
+data.setCell(0, 1, 'searchItems')
 data.setCell(0, 2, 'testPageObject.TestText')
-data.setCell(0, 3, 25466);
+data.setCell(0, 3, 447);
 window.suiteTableData['letsKodeIt']= { tableData: data, tableDiv: 'times-div-letsKodeIt'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 447 ms</span>
               <div id="times-div-letsKodeIt">
               </div> <!-- times-div-letsKodeIt -->
             </div> <!-- times-div -->
@@ -229,17 +227,21 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testPageObject.TestText</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(false, saucelabs, Mac, Sierra, chrome, 61.0, https://letskodeit.teachable.com/p/practice)</span>
+              <div class="configuration-suite before">
+                <span class="method-name">startsExtentReports</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, saucelabs, Mac, Sierra, chrome, 61.0, http://www.letskodeit.com/, public void testPageObject....)</span>
+                <span class="method-start">179 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickBy</span>
-                <span class="method-start">4520 ms</span>
+                <span class="method-name">searchItems</span>
+                <span class="method-start">4892 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29987 ms</span>
+                <span class="method-start">5339 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

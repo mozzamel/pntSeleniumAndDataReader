@@ -72,7 +72,7 @@ public class CommonApi {
                 driver = new ChromeDriver();
                 test.log(LogStatus.INFO, "Executing Chrome Browser For Windows");
             } else if (platform.contains("mac")) {
-                System.setProperty("webdriver.chrome.driver", "/Users/mozzamelhossain/IdeaProjects/pntSelenium/Generic/driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/syedraza/IdeaProjects/pntSeleniumAndDataReader/Generic/driver/chromedriver");
                 driver = new ChromeDriver();
             }
 
@@ -81,7 +81,7 @@ public class CommonApi {
                 System.setProperty("webdriver.gecko.drover", "Generic/driver/geckodriver.exe");
                 driver = new FirefoxDriver();
             } else if (platform.contains("mac")) {
-                System.setProperty("webdriver.gecko.driver", "/Users/mozzamelhossain/IdeaProjects/pntSelenium/Generic/driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "");
                 driver = new FirefoxDriver();
             }
         }
