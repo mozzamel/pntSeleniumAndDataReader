@@ -2,12 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="letsKodeIt" duration-ms="30094" started-at="2017-11-05T18:28:39Z" finished-at="2017-11-05T18:29:09Z">
+  <suite name="letsKodeIt" duration-ms="5513" started-at="2017-11-10T16:42:40Z" finished-at="2017-11-10T16:42:46Z">
     <groups>
     </groups>
-    <test name="letsKodeItfeatures" duration-ms="30094" started-at="2017-11-05T18:28:39Z" finished-at="2017-11-05T18:29:09Z">
+    <test name="letsKodeItfeatures" duration-ms="5513" started-at="2017-11-10T16:42:40Z" finished-at="2017-11-10T16:42:46Z">
       <class name="testPageObject.TestText">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPageObject.TestText@36f6e879]" name="setUp" is-config="true" duration-ms="4519" started-at="2017-11-05T13:28:39Z" finished-at="2017-11-05T13:28:43Z">
+        <test-method status="PASS" signature="startsExtentReports()[pri:0, instance:testPageObject.TestText@2c9f9fb0]" name="startsExtentReports" is-config="true" duration-ms="171" started-at="2017-11-10T09:42:40Z" finished-at="2017-11-10T09:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startsExtentReports -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testPageObject.TestText@2c9f9fb0]" name="setUp" is-config="true" duration-ms="4713" started-at="2017-11-10T09:42:40Z" finished-at="2017-11-10T09:42:45Z">
           <params>
             <param index="0">
               <value>
@@ -41,18 +45,23 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[https://letskodeit.teachable.com/p/practice]]>
+                <![CDATA[http://www.letskodeit.com/]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[public void testPageObject.TestText.searchItems() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickBy()[pri:0, instance:testPageObject.TestText@36f6e879]" name="clickBy" duration-ms="25466" started-at="2017-11-05T13:28:43Z" finished-at="2017-11-05T13:29:09Z">
+        <test-method status="PASS" signature="searchItems()[pri:0, instance:testPageObject.TestText@2c9f9fb0]" name="searchItems" duration-ms="447" started-at="2017-11-10T09:42:45Z" finished-at="2017-11-10T09:42:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickBy -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPageObject.TestText@36f6e879]" name="tearDown" is-config="true" duration-ms="88" started-at="2017-11-05T13:29:09Z" finished-at="2017-11-05T13:29:09Z">
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPageObject.TestText@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="345" started-at="2017-11-10T09:42:46Z" finished-at="2017-11-10T09:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
